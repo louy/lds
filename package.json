@@ -1,0 +1,23 @@
+{
+  "name": "lds",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "typings install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louay Alakkad <louay@alakkad.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "http-proxy": "^1.15.2"
+  }
+}
